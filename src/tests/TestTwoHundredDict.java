@@ -18,7 +18,7 @@ public class TestTwoHundredDict {
 
     @Before
     public void init() {
-        d = new Diccionario(200);
+        d = new Diccionario(300);
         for (int i = 1; i <= 200; i++) {
             d.add("c" + i, "clave" + i);
         }
